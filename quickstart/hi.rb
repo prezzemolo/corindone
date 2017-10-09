@@ -1,6 +1,7 @@
-def hi
-    puts 'hi!'
-    puts 'hoge'
+def hi (name = 'world')
+    puts "hi! #{name}"
+    puts 'hi! #{name}'
 end
 
-hi()
+puts 'put your name in terminal'
+hi(gets)
